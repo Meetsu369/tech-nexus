@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h2 id="form-title">Login Form</h2>
+
+    <div class="tab">
+        <button class="active" onclick="showLogin()">Login</button>
+        <button onclick="showSignup()">Register</button>
+    </div>
+
+    <form id="login-form">
+        <div class="input-group">
+            <input type="email" placeholder="Email" required>
+        </div>
+        <div class="input-group">
+            <input type="password" placeholder="Password" required>
+        </div>
+        <a href="#" class="forgot-password">Forgot password?</a>
+        <button type="submit" class="login-btn">Login</button>
+        <div class="signup-link">
+            Not a member? <a href="#" onclick="showSignup()">Register now</a>
+        </div>
+    </form>
+
+    <form id="signup-form" style="display: none;">
+        <div class="input-group">
+            <input type="text" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+            <input type="email" placeholder="Email" required>
+        </div>
+        <div class="input-group">
+            <input type="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="signup-btn">Register</button>
+        <div class="signup-link">
+            Already a member? <a href="#" onclick="showLogin()">Login now</a>
+        </div>
+    </form>
+</div>
+
+<script src="login.js"></script>
+<script src="register.js"></script>
+</body>
+</html>
