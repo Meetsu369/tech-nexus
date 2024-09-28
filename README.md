@@ -24,22 +24,22 @@ This project aims to create a fully functional e-commerce website that provides 
 
 ## Technologies Used
 
-- Frontend: [Your chosen frontend framework, e.g., React, Vue.js]
-- Backend: [Your chosen backend framework, e.g., Node.js with Express, Django]
-- Database: [Your chosen database, e.g., MongoDB, PostgreSQL]
-- Payment Gateway: [Your chosen payment service, e.g., Stripe, PayPal]
+- Frontend: [HTML, CSS]
+- Backend: [Node.js,PHP]
+- Database: [MySQL with phpMyAdmin through XAMPP]
+- Payment Gateway: [Razorpay]
 
 ## Setup and Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ecommerce-website.git
+   git clone https://github.com/yourusername/tech-nexus.git
    ```
 
 2. Install dependencies:
    ```
-   cd ecommerce-website
-   npm install  # or yarn install
+   cd tech-nexus
+   npm install  
    ```
 
 3. Set up environment variables:
@@ -75,6 +75,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-Your Name - your.email@example.com
+Your Name - smeetpatil878@gmail.com
 
-Project Link: https://github.com/yourusername/ecommerce-website
+Project Link: https://github.com/SmeetPatil/tech-nexus
