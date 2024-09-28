@@ -25,8 +25,8 @@ This project aims to create a fully functional e-commerce website that provides 
 ## Technologies Used
 
 - Frontend: [HTML, CSS]
-- Backend: [Node.js,PHP]
-- Database: [MySQL with phpMyAdmin through XAMPP]
+- Backend: [Node.js with Express]
+- Database: [SQLite]
 - Payment Gateway: [Razorpay]
 
 ## Setup and Installation
@@ -39,7 +39,8 @@ This project aims to create a fully functional e-commerce website that provides 
 2. Install dependencies:
    ```
    cd tech-nexus
-   npm install  
+   
+   npm install express sqlite3 bcrypt
    ```
 
 3. Set up environment variables:
@@ -48,7 +49,7 @@ This project aims to create a fully functional e-commerce website that provides 
 
 4. Start the development server:
    ```
-   npm run dev  # or yarn dev
+   node server.js
    ```
 
 5. Open your browser and navigate to `http://localhost:3000` (or the port you've configured)
