@@ -61,22 +61,17 @@ function populateAddresses() {
     `).join('');
 }
 
-// Function to populate payment methods
-function populatePaymentMethods() {
-    const paymentList = document.getElementById("paymentList");
-    paymentList.innerHTML = paymentMethods.map(payment => `
-        <div class="payment-item">
-            <strong>${payment.type}</strong><br>
-            ${payment.type === "Credit Card" 
-                ? `**** **** **** ${payment.last4}<br>Expires: ${payment.expiry}` 
-                : `PayPal: ${payment.email}`}
-        </div>
-    `).join('');
+function populateUser() {
+    document.getElementById("userName").textContent = "RSS F";
+    document.getElementById("userEmail").textContent = "team.RSSF@example.com";
+    document.getElementById("profiePic").textContent = "R";
 }
+
+
 
 // Initialize the page
 window.onload = function() {
     populateOrders();
     populateAddresses();
-    populatePaymentMethods();
+    populateUser();
 };
