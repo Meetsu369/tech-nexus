@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cartItems = [
-        { id: 1, name: 'Product 1', price: 29.99, quantity: 1, image: 'product1.jpg' },
-        { id: 2, name: 'Product 2', price: 49.99, quantity: 2, image: 'product2.jpg' },
-        { id: 3, name: 'Product 3', price: 19.99, quantity: 1, image: 'product3.jpg' },
+        { id: 1,  name: 'Samsung Galaxy S24 Ultra', price: 114990.0, quantity: 2, image: '/../product/images/mobile/product-mobile1.jpg' },
+        { id: 11,  name: 'Apple Watch Ultra', price: 89990, quantity: 2, image: '/../product/images/watch/watch1.jpg' },
+        { id: 21,  name: 'MSI Cyborg 15', price: 67990, quantity: 2, image: '/../product/images/laptop/laptop1.jpg' }
     ];
 
     const cartItemsContainer = document.getElementById('cartItems');
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="${item.image}" alt="${item.name}" class="item-image">
                     <div>
                         <div class="item-name">${item.name}</div>
-                        <div class="item-price">$${item.price.toFixed(2)}</div>
+                        <div class="item-price">${item.price.toFixed(2)}</div>
                     </div>
                 </div>
                 <div class="item-quantity">
@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             cartItemsContainer.appendChild(itemElement);
             subtotal += item.price * item.quantity;
         });
-        subtotalElement.textContent = `$${subtotal.toFixed(2)}`;
-        totalElement.textContent = `$${(subtotal + 5).toFixed(2)}`;
+        subtotalElement.textContent = `${subtotal.toFixed(2)}`;
+        totalElement.textContent = `${(subtotal + 5).toFixed(2)}`;
         itemCountElement.textContent = `${cartItems.length} items`;
     }
 

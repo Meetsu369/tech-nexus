@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "image": "product-mobile1.jpg",
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": 114990.0
+    },
+    {
+        "id": 2,
+        "image": "product-mobile2.jpg",
+        "name": "Samsung Galaxy S23 Ultra",
+        "price": 104990.0
+    },
+    {
+        "id": 3,
+        "image": "product-mobile3.jpg",
+        "name": "iPhone 16",
+        "price": 109990.0
+    },
+    {
+        "id": 4,
+        "image": "product-mobile4.jpg",
+        "name": "iPhone 15",
+        "price": 79000.0
+    },
+    {
+        "id": 5,
+        "image": "product-mobile5.jpg",
+        "name": "iPhone 14",
+        "price": 69990.0
+    },
+    {
+        "id": 11,
+        "image": "watch1.jpg",
+        "name": "Apple Watch Ultra 2",
+        "price": 89990.0
+    },
+    {
+        "id": 12,
+        "image": "watch2.jpg",
+        "name": "Samsung Galaxy Watch Ultra",
+        "price": 53499.0
+    },
+    {
+        "id": 13,
+        "image": "watch3.jpg",
+        "name": "Apple Watch SE",
+        "price": 24900.0
+    },
+    {
+        "id": 14,
+        "image": "watch4.jpg",
+        "name": "Galaxy Watch 7",
+        "price": 32999.0
+    },
+    {
+        "id": 15,
+        "image": "watch5.jpg",
+        "name": "Fastrack Reflex Play+",
+        "price": 4950.0
+    },
+    {
+        "id": 21,
+        "image": "laptop1.jpg",
+        "name": "MSI Cyborg 15",
+        "price": 67990.0
+    },
+    {
+        "id": 22,
+        "image": "laptop2.jpg",
+        "name": "Acer Nitro 5 V15",
+        "price": 71599.0
+    },
+    {
+        "id": 23,
+        "image": "laptop3.jpg",
+        "name": "ASUS TUF Gaming F15",
+        "price": 62499.0
+    },
+    {
+        "id": 24,
+        "image": "laptop4.jpg",
+        "name": "Asus ROG Zephyrus Duo",
+        "price": 379838.0
+    },
+    {
+        "id": 25,
+        "image": "laptop5.jpg",
+        "name": "Lenovo Legion 5",
+        "price": 133216.0
+    },
+    {
+        "id": 31,
+        "image": "headphone1.jpg",
+        "name": "HyperX Cloud Stinger",
+        "price": 4990.0
+    },
+    {
+        "id": 32,
+        "image": "headphone2.jpg",
+        "name": "JBL Quantum 100",
+        "price": 1999.0
+    },
+    {
+        "id": 33,
+        "image": "headphone3.jpg",
+        "name": "Razer Barracuda",
+        "price": 13850.0
+    },
+    {
+        "id": 34,
+        "image": "headphone4.jpg",
+        "name": "boAt Immortal IM 300",
+        "price": 1799.0
+    },
+    {
+        "id": 35,
+        "image": "headphone5.jpg",
+        "name": "Cosmic Byte Immortal",
+        "price": 2150.0
+    }
+]
