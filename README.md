@@ -75,7 +75,8 @@ We welcome contributions to improve the e-commerce website. Please follow these 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
+Name - Smeet Patil
 
-Your Name - smeetpatil878@gmail.com
+Email - smeetpatil878@gmail.com
 
 Project Link: https://github.com/SmeetPatil/tech-nexus
