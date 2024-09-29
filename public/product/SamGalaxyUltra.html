@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Galaxy Watch Ultra - Product Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/main-logo.png" alt="Main Logo" class="logo">
+            </div>
+        </div>
+    </header>
+
+    <main class="container" role="main">
+        <div class="product-detail-page">
+            <div class="product-layout">
+                <aside class="category-menu">
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="../index.html#mobile-products">Mobiles</a></li>
+                        <li><a href="../index.html#laptop">Laptops</a></li>
+                        <li><a href="../index.html#headphones">Headphones</a></li>
+                        <li><a href="../index.html#smart-watches">Watches</a></li>
+                    </ul>
+                </aside>
+
+                <section class="product-content">
+                    <h1>Samsung Galaxy Watch Ultra</h1>
+                    
+                    <div class="product-image-container">
+                        <img src="images/watch/watch2.jpg" alt="Samsung Galaxy Watch Ultra" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h2>Product Information</h2>
+                        <table>
+                            <tr>
+                                <th>Display</th>
+                                <td>1.4-inch Super AMOLED</td>
+                            </tr>
+                            <tr>
+                                <th>Battery Life</th>
+                                <td>Up to 40 hours</td>
+                            </tr>
+                            <tr>
+                                <th>Water Resistance</th>
+                                <td>Water-resistant up to 50 meters</td>
+                            </tr>
+                            <tr>
+                                <th>Health Features</th>
+                                <td>Heart rate, ECG, Sleep tracking</td>
+                            </tr>
+                            <tr>
+                                <th>Operating System</th>
+                                <td>Wear OS 3</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="pricing-and-availability">
+                        <h2>Pricing & Availability</h2>
+                        <p class="price">Price: ₹53,499</p>
+                        <p class="availability">Availability: In Stock</p>
+                        <div class="quantity-selector">
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" value="1">
+                        </div>
+                        <button class="add-to-cart-btn"data-product-id="12">Add to Cart</button>
+                    </div>
+
+                    <div class="reviews-and-ratings">
+                        <h2>Customer Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>Great features!</h3>
+                                <p>Rating: 4.5/5</p>
+                                <p>Excellent for fitness tracking and notifications!</p>
+                            </li>
+                        </ul>
+                        <button class="write-review-btn">Write a Review</button>
+                    </div>
+
+                    <div class="related-products"></div>
+                    <h2>Related Products</h2>
+                    <div class="related-products-container">
+                        <div class="related-products-grid">
+                            <div class="related-product-card">
+                                <img src="images/watch/watch1.jpg" alt="Apple Watch Ultra 2" class="related-product-image">
+                                <h3>Apple Watch Ultra 2</h3>
+                                <p class="related-product-price">₹89,990</p>
+                                <button data-href="AppleUltra2.html" class="view-product-btn">View Product</button>
+                            </div>
+                        
+                            <div class="related-product-card">
+                                <img src="images/watch/watch4.jpg" alt="New Galaxy Watch 7" class="related-product-image">
+                                <h3>New Galaxy Watch 7</h3>
+                                <p class="related-product-price">₹32,999</p>
+                                <button data-href="SamGalaxy7.html" class="view-product-btn">View Product</button>
+                            </div>
+                            <div class="related-product-card">
+                                <img src="images/watch/watch3.jpg" alt="Apple Watch SE" class="related-product-image">
+                                <h3>Apple Watch SE</h3>
+                                <p class="related-product-price">₹24,900</p>
+                                <button data-href="AppleSE.html" class="view-product-btn">View Product</button>
+                            </div>
+                            <div class="related-product-card">
+                                <img src="images/watch/watch5.jpg" alt="Fastrack Reflex Play+" class="related-product-image">
+                                <h3>Fastrack Reflex Play+</h3>
+                                <p class="related-product-price">₹4,950</p>
+                                <button data-href="FastReflexplay.html" class="view-product-btn">View Product</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dot-navigation"></div>
+                    
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2>SUBSCRIBE</h2>
+            <!-- Add subscription form here -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="/addToCart.js"></script>
+</body>
+</html>

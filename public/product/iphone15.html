@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone - Product Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/main-logo.png" alt="Main Logo" class="logo">
+            </div>
+        </div>
+    </header>
+
+    <main class="container" role="main">
+        <div class="product-detail-page">
+            <div class="product-layout">
+                <aside class="category-menu">
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="../index.html#mobile-products">Mobiles</a></li>
+                        <li><a href="../index.html#laptop">Laptops</a></li>
+                        <li><a href="../index.html#headphones">Headphones</a></li>
+                        <li><a href="../index.html#smart-watches">Watches</a></li>
+                    </ul>
+                </aside>
+
+                <section class="product-content">
+                    <h1>iPhone 15</h1>
+                    
+                    <div class="product-image-container">
+                        <img src="images/mobile/product-mobile4.jpg" alt="iPhone 15" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h2>Product Information</h2>
+                        <table>
+                            <tr>
+                                <th>Display</th>
+                                <td>6.1-inch Super Retina XDR OLED</td>
+                            </tr>
+                            <tr>
+                                <th>Processor</th>
+                                <td>A17 Pro chip</td>
+                            </tr>
+                            <tr>
+                                <th>Storage</th>
+                                <td>128GB, 256GB, 512GB, 1TB</td>
+                            </tr>
+                            <tr>
+                                <th>Camera</th>
+                                <td>Dual 48MP camera system</td>
+                            </tr>
+                            <tr>
+                                <th>Battery</th>
+                                <td>Up to 20 hours video playback</td>
+                            </tr>
+                            <tr>
+                                <th>Operating System</th>
+                                <td>iOS 17</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="pricing-and-availability">
+                        <h2>Pricing & Availability</h2>
+                        <p class="price">Price: ₹79,990</p>
+                        <p class="availability">Availability: In Stock</p>
+                        <div class="quantity-selector">
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" value="1">
+                        </div>
+                        <button class="add-to-cart-btn"data-product-id="4">Add to Cart</button>
+                    </div>
+
+                    <div class="reviews-and-ratings">
+                        <h2>Customer Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>Amazing upgrade!</h3>
+                                <p>Rating: 5/5</p>
+                                <p>The camera quality is outstanding and the performance is top-notch!</p>
+                            </li>
+                            <li>
+                                <h3>Best phone I’ve owned!</h3>
+                                <p>Rating: 4.5/5</p>
+                                <p>Great features, but I wish the battery life was a bit longer.</p>
+                            </li>
+                        </ul>
+                        <button class="write-review-btn">Write a Review</button>
+                    </div>
+
+                    <div class="related-products">
+                        <h2>Related Products</h2>
+                        <div class="related-products-container">
+                            <div class="related-products-grid">
+                                <div class="related-product-card">
+                                    <img src="images/mobile/product-mobile5.jpg" alt="iPhone 14" class="related-product-image">
+                                    <h3>iPhone 14</h3>
+                                    <p class="related-product-price">₹69,990</p>
+                                    <button data-href="iphone14.html" class="view-product-btn">View Product</button>
+                                </div>
+                                <div class="related-product-card">
+                                    <img src="images/mobile/product-mobile3.jpg" alt="iPhone 16" class="related-product-image">
+                                    <h3>iPhone 16</h3>
+                                    <p class="related-product-price">₹1,09,990</p>
+                                    <button data-href="iphone16.html" class="view-product-btn">View Product</button>
+                                </div>
+                                <div class="related-product-card">
+                                    <img src="images/mobile/product-mobile2.jpg" alt="Samsung Galaxy S23 Ultra" class="related-product-image">
+                                    <h3>Samsung Galaxy S23 Ultra</h3>
+                                    <p class="related-product-price">₹1,04,990</p>
+                                    <button data-href="S23ultra.html" class="view-product-btn">View Product</button>
+                                </div>
+                                <div class="related-product-card">
+                                    <img src="images/mobile/product-mobile1.jpg" alt="Samsung Galaxy S24 Ultra" class="related-product-image">
+                                    <h3>Samsung Galaxy S24 Ultra</h3>
+                                    <p class="related-product-price">₹1,14,990</p>
+                                    <button data-href="S24ultra.html" class="view-product-btn">View Product</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dot-navigation"></div>
+                    </div>
+                    
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2>SUBSCRIBE</h2>
+            <!-- Add subscription form here -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="/addToCart.js"></script>
+</body>
+</html>

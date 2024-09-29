@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acer Nitro 5 V15 - Product Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/main-logo.png" alt="Main Logo" class="logo">
+            </div>
+        </div>
+    </header>
+
+    <main class="container" role="main">
+        <div class="product-detail-page">
+            <div class="product-layout">
+                <aside class="category-menu">
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="../index.html#mobile-products">Mobiles</a></li>
+                        <li><a href="../index.html#laptop">Laptops</a></li>
+                        <li><a href="../index.html#headphones">Headphones</a></li>
+                        <li><a href="../index.html#smart-watches">Watches</a></li>
+                    </ul>
+                </aside>
+
+                <section class="product-content">
+                    <h1>Acer Nitro 5 V15</h1>
+                    
+                    <div class="product-image-container">
+                        <img src="images/laptop/laptop2.jpg" alt="Acer Nitro 5 V15" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h2>Product Information</h2>
+                        <table>
+                            <tr>
+                                <th>Display</th>
+                                <td>15.6-inch Full HD</td>
+                            </tr>
+                            <tr>
+                                <th>Processor</th>
+                                <td>Intel Core i5</td>
+                            </tr>
+                            <tr>
+                                <th>RAM</th>
+                                <td>8GB</td>
+                            </tr>
+                            <tr>
+                                <th>Storage</th>
+                                <td>512GB SSD</td>
+                            </tr>
+                            <tr>
+                                <th>Graphics</th>
+                                <td>NVIDIA GeForce GTX 1650</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="pricing-and-availability">
+                        <h2>Pricing & Availability</h2>
+                        <p class="price">Price: ₹71,599</p>
+                        <p class="availability">Availability: In Stock</p>
+                        <div class="quantity-selector">
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" value="1">
+                        </div>
+                        <button class="add-to-cart-btn"data-product-id="22">Add to Cart</button>
+                    </div>
+                    <div class="related-products"></div>
+                        <h2>Related Products</h2>
+                        <div class="related-products-container">
+                            <div class="related-products-grid">
+                                <div class="related-product-card">
+                                    <img src="images/laptop/laptop5.jpg" alt="Lenovo Legion 5" class="related-product-image">
+                                    <h3>Lenovo Legion 5</h3>
+                                    <p class="related-product-price">₹1,33,216</p>
+                                    <button data-href="Legion5.html" class="view-product-btn">View Product</button>
+                                </div>
+                                <div class="related-product-card">
+                                    <img src="images/laptop/laptop4.jpg" alt="Asus ROG Zephyrus Duo" class="related-product-image">
+                                    <h3>Asus ROG Zephyrus Duo</h3>
+                                    <p class="related-product-price">₹1,99,999</p> <!-- Price placeholder -->
+                                    <button data-href="AsusRogZephyrusDuo.html" class="view-product-btn">View Product</button>
+                                </div>
+                                <div class="related-product-card">
+                                    <img src="images/laptop/laptop2.jpg" alt="Acer Nitro 5 V15" class="related-product-image">
+                                    <h3>Acer Nitro 5 V15</h3>
+                                    <p class="related-product-price">₹73,490</p> <!-- Price placeholder -->
+                                    <button data-href="Nitro5V15.html" class="view-product-btn">View Product</button>
+                                </div>
+                                <div class="related-product-card">
+                                    <img src="images/laptop/laptop1.jpg" alt="MSI Cyborg 15" class="related-product-image">
+                                    <h3>MSI Cyborg 15</h3>
+                                    <p class="related-product-price">₹1,29,990</p> <!-- Price placeholder -->
+                                    <button data-href="MSICyborg.html" class="view-product-btn">View Product</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dot-navigation"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2>SUBSCRIBE</h2>
+            <!-- Add subscription form here -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="/addToCart.js"></script>
+</body>
+</html>
