@@ -79,4 +79,10 @@ Name - Smeet Patil
 
 Email - smeetpatil878@gmail.com
 
+Name - Sumeet Prajapati
+
+Email - sumeet9704@outlook.com
+
 Project Link: https://github.com/SmeetPatil/tech-nexus
+
+
